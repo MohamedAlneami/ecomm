@@ -10,4 +10,8 @@ $(document).ready(function(){
           alert ("اضيف المنتج الى عربة الشراء");
           e.stopPropagation();
       });
+      $('.product-option input[type="radio"]').change(function() {
+        $(this).parents('.product-option').siblings().removeClass('active');
+        $(this).parents('.product-option').addClass('active');
+      })
 });
