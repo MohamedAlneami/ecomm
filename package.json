@@ -5,7 +5,9 @@
   "dependencies": {
     "connect": "^3.6.6",
     "gulp": "^3.9.1",
-    "gulp-connect": "^5.7.0"
+    "gulp-connect": "^5.7.0",
+    "gulp-css-flipper": "^1.0.2",
+    "merge-stream": "^1.0.1"
   },
   "devDependencies": {},
   "scripts": {
